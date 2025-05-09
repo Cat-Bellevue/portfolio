@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Data Analyst</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h1, h2 {
+      margin-bottom: 1rem;
+    }
+    .project {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+    .project img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+    .project a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #2563eb;
+      text-decoration: none;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mon Portfolio - Data Analyst</h1>
+  <p>Bonjour, je suis [Ton Prénom]. Voici une sélection de mes projets de visualisation de données.</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>📊 Projets récents</h2>
+
+    <div class="project">
+      <h3>Analyse des émissions carbone des navires</h3>
+      <img src="images/emissions-navires.png" alt="Aperçu du tableau de bord carbone">
+      <p>Un tableau de bord interactif pour visualiser les émissions en fonction des trajets, du type de navire et du temps.</p>
+      <a href="https://public.tableau.com/views/ton-dashboard" target="_blank">Voir le tableau de bord</a>
+    </div>
+
+    <div class="project">
+      <h3>Suivi de production agroalimentaire (Power BI)</h3>
+      <img src="images/production-agro.png" alt="Aperçu dashboard Power BI">
+      <p>Suivi hebdomadaire des performances de lignes de production, taux de rendement, incidents par type.</p>
+      <a href="https://app.powerbi.com/view?r=..." target="_blank">Voir le tableau de bord</a>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>📄 CV & Contact</h2>
+    <p>Consultez mon <a href="CV_ton_nom.pdf" target="_blank">CV en PDF</a>.</p>
+    <p>Vous pouvez me contacter par email : <a href="mailto:ton.email@email.com">ton.email@email.com</a></p>
+  </section>
+
+</main>
+
+<footer>
+  © 2025 Ton Nom - Portfolio de Data Analyst
+</footer>
+
+</body>
+</html>
